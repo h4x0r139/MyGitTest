@@ -7,3 +7,6 @@ A-》B-》C(HEAD)
 ## git reset测试
 - git reset HEAD~2
 head回退二个提交记录到A，但是保留该记录后面的提交B、C
+
+增加第一个temp commit  
+增加第二个temp commit
