@@ -23,4 +23,5 @@ head回退二个提交记录到A，但是保留该记录后面的提交B、C
 第三条提交记录，通过reset合并  
 
 rebase 分支 dev1  
-rebase 分支dev2
+rebase 分支 dev2  
+rebase 分支 dev3  
