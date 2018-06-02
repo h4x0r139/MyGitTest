@@ -22,4 +22,5 @@ head回退二个提交记录到A，但是保留该记录后面的提交B、C
 第二条提交记录，通过reset合并  
 第三条提交记录，通过reset合并  
 
-git rebase master1
+git rebase master1  
+git rebase master2  
