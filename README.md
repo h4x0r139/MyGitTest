@@ -26,4 +26,6 @@ git rebase master1
 git rebase master2  
 git rebase master3  
 rebase 分支 dev1  
-rebase 分支dev2
+rebase 分支 dev2  
+rebase 分支 dev3  
+rebase 分支 dev3  
