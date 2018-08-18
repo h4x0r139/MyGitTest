@@ -1,0 +1,3 @@
+[submodule "submodules/GitLibTest"]
+	path = submodules/GitLibTest
+	url = git@github.com:h4x0r139/GitLibTest.git

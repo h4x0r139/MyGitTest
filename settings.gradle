@@ -1,1 +1,5 @@
 include ':lib'
+include ':jar_lib'
+
+//project(':jar_lib').projectDir = file('submodules/GitLibTest/jar_lib')
+project(':jar_lib').projectDir = new File('submodules/GitLibTest/jar_lib')
