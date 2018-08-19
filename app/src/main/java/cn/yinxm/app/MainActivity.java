@@ -15,5 +15,7 @@ public class MainActivity extends Activity {
 
         AndLib.test();
 
+        AndLib.test6();
+
     }
 }

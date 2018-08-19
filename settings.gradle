@@ -5,7 +5,8 @@ include ':lib', ':app'
 
 // 指定module路径，简写
 include ':and_lib'
-project(':and_lib').projectDir = file('submodules/and_lib')
+//project(':and_lib').projectDir = file('submodules/and_lib')
+project(':and_lib').projectDir = file('submodules/gitlibtest/and_lib')
 
 //include ':GitLibTest'
 //project(':GitLibTest').projectDir = new File('submodules/GitLibTest')
