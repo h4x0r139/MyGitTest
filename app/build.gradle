@@ -34,8 +34,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-//    implementation project(':jar_lib')
+//   implementation project(':submodules:and_lib')
+   implementation project(':and_lib')
 //    implementation project(':GitLibTest')
 //    implementation project(':submodules:GitLibTest:jar_lib')
-    implementation project(':app:GitLibTest:jar_lib')
+//    implementation project(':app:GitLibTest:jar_lib')
 }

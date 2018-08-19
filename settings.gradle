@@ -1,9 +1,13 @@
 include ':lib', ':app'
-//include ':jar_lib'
-//
-//project(':jar_lib').projectDir = file('submodules/GitLibTest/jar_lib')
+
+// 全路径写法，依赖的时候也要写全路径，implementation project(':submodules:and_lib')
+// include ':submodules:and_lib'
+
+// 指定module路径，简写
+include ':and_lib'
+project(':and_lib').projectDir = file('submodules/and_lib')
 
 //include ':GitLibTest'
 //project(':GitLibTest').projectDir = new File('submodules/GitLibTest')
 
-include ':submodules:GitLibTest:jar_lib'
+//include ':submodules:GitLibTest:jar_lib'
